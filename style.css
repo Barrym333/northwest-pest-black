@@ -95,7 +95,26 @@ img {
         background-color: black;
         text-align: center;
         align-items: center;
-        
+    }
+    
+    @media (max-width: 768px) {
+        .sub-title {
+            font-size: 20px;
+            text-align: center; /* Adjust alignment if needed */
+            color: green; /* Adjust color if necessary */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .sub-title {
+            font-size: 18px;
+        }
+    }
+
+    .sub-title {
+        display: inline-block; /* Helps control the underline width */
+        border-bottom: 2px solid green; /* Adjust thickness and color */
+        padding-bottom: 3px; /* Adds space between text and underline */
     }
 
     /* .container {
