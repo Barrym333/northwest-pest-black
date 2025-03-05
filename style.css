@@ -6,10 +6,18 @@ body {
 }
 
 
+.sub-title {
+    font-size: 20px;  /* Adjust size for PC */
+    color: green;   /* Change to a different color */
+    text-decoration: underline;  /* Optional underline */
+    font-weight: bold; /* Make text bold */
+    text-align: center;  /* Align left, center, or right as needed */
+}
+
 
 p {
 color: #fffdfa;
-font-size: 150%;
+font-size: 22px;
 text-align: center;
 justify-content: space-around;
 } 
